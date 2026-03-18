@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://guiltysnake.github.io/</loc>
+    
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://guiltysnake.github.io/"/>
+  </url>
+  <url>
     <loc>https://guiltysnake.github.io/categories/</loc>
     
     <changefreq>monthly</changefreq>
@@ -30,16 +40,6 @@
                rel="alternate"
                hreflang="en"
                href="https://guiltysnake.github.io/tags/"/>
-  </url>
-  <url>
-    <loc>https://guiltysnake.github.io/</loc>
-    
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://guiltysnake.github.io/"/>
   </url>
   
 </urlset>
