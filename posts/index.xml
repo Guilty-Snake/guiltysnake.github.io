@@ -6,14 +6,21 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/guiltysnake.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Networking Concepts</title>
+      <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network1/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network1/</guid>
+      <description>&lt;h2 id=&#34;osi-model&#34;&gt;OSI Model&lt;/h2&gt;&#xA;&lt;p&gt;The OSI(Open Systems Interconnection) model is a conceptual model created by ISO(International Organization for Standarization) that describes how network communication should occur in a computer network. So, it provides a framework for computer network communications.&#xA;&lt;img src=&#34;../OSILayers.svg&#34; alt=&#34;OSI-Layers&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Linux Shells</title>
       <link>http://localhost:1313/guiltysnake.github.io/posts/mypost/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/guiltysnake.github.io/posts/mypost/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Shells provide great features for the commands written in the CLI(Command Line Interface). Using the CLI instead of the GUI(Graphical User Interface) is similar to going into the kitchen of a restaurent to make your own dish instead of ordering one.&lt;/p&gt;&#xA;&lt;p&gt;Though a lot of shells exist for Linux the default and as well as the most popular one is bash (Bourne-again Shell).&lt;/p&gt;&#xA;&lt;p&gt;The file /etc/shells contains all the installed shells on a Linux system. To switch between shells, their name can be typed in the terminal.&#xA;To permanently change a default shell, the command:&#xA;chsh -s /usr/bin/zsh&#xA;can be used.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
