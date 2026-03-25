@@ -13,7 +13,7 @@
       <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network1/</link>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network1/</guid>
-      <description>&lt;h2 id=&#34;osi-model&#34;&gt;OSI Model&lt;/h2&gt;&#xA;&lt;p&gt;The OSI(Open Systems Interconnection) model is a conceptual model created by ISO(International Organization for Standarization) that describes how network communication should occur in a computer network. So, it provides a framework for computer network communications.&#xA;&lt;img src=&#34;../OSILayers.svg&#34; alt=&#34;OSI-Layers&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;osi-model&#34;&gt;OSI Model&lt;/h2&gt;&#xA;&lt;p&gt;The OSI(Open Systems Interconnection) model is a conceptual model created by ISO(International Organization for Standarization) that describes how network communication should occur in a computer network. So, it provides a framework for computer network communications.&lt;/p&gt;&#xA;&lt;img src=&#34;../OSILayers.svg&#34; alt=&#34;OSI Layers&#34; width=&#34;420&#34; height=&#34;280&#34;&gt;&#xA;&lt;h3 id=&#34;layer-1-physical-layer&#34;&gt;Layer 1 Physical Layer&lt;/h3&gt;&#xA;&lt;p&gt;The Physical Layer of the OSI model includes the physical connections between devices, including medium such as wires. The transmission of data can be done through electrical/optical signals or wireless signals. Depending on the medium different physical component may be required such as wires or antennas.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

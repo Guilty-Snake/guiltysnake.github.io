@@ -85,7 +85,7 @@
 
   
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","email":"aditkhatri143@gmail.com","name":"Adit khatri","sameAs":["https://github.com/Guilty-Snake","https://www.linkedin.com/in/yourprofile","https://twitter.com/n/a"]},"dateModified":"2026-03-24T00:00:00Z","datePublished":"2026-03-24T00:00:00Z","description":"OSI Model The OSI(Open Systems Interconnection) model is a conceptual model created by ISO(International Organization for Standarization) that describes how …","headline":"Networking Concepts","image":"http://localhost:1313/guiltysnake.github.io/images/networking.webp","inLanguage":"en","keywords":["THM","Cybersecurity101","Networking"],"mainEntityOfPage":{"@id":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network1/","@type":"WebPage"},"publisher":{"@type":"Organization","name":"","url":"http://localhost:1313/guiltysnake.github.io/"},"timeRequired":"PT3M","url":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network1/","wordCount":630}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","email":"aditkhatri143@gmail.com","name":"Adit khatri","sameAs":["https://github.com/Guilty-Snake","https://www.linkedin.com/in/yourprofile","https://twitter.com/n/a"]},"dateModified":"2026-03-24T00:00:00Z","datePublished":"2026-03-24T00:00:00Z","description":"OSI Model The OSI(Open Systems Interconnection) model is a conceptual model created by ISO(International Organization for Standarization) that describes how …","headline":"Networking Concepts","image":"http://localhost:1313/guiltysnake.github.io/images/networking.webp","inLanguage":"en","keywords":["THM","Cybersecurity101","Networking"],"mainEntityOfPage":{"@id":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network1/","@type":"WebPage"},"publisher":{"@type":"Organization","name":"","url":"http://localhost:1313/guiltysnake.github.io/"},"timeRequired":"PT5M","url":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network1/","wordCount":1018}</script>
 
 
 
@@ -378,7 +378,7 @@
             stroke-width="2"
             d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
         </svg>
-        630 words
+        1018 words
       </span>
     
 
@@ -392,7 +392,7 @@
             stroke-width="2"
             d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
         </svg>
-        3 min
+        5 min
       </span>
     
   </div>
@@ -492,6 +492,87 @@
       </tr>
   </tbody>
 </table>
+<h2 id="tcpip-model">TCP/IP model</h2>
+<p>TCP/IP (Transmission Control Protocol/Internet Protocola) model was created by the US Department of defense as this model allows a network to continue its operations even after parts of it are broken.
+Layer Number	ISO OSI Model	TCP/IP Model (RFC 1122)	Protocols</p>
+<table>
+  <thead>
+      <tr>
+          <th>Layer Number</th>
+          <th>ISO OSI Model</th>
+          <th>TCP/IP Model (RFC 1122)</th>
+          <th>Protocols</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>7</td>
+          <td>Application Layer</td>
+          <td>Application Layer</td>
+          <td>HTTP, HTTPS, FTP, POP3, SMTP, IMAP, Telnet, SSH</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>Presentation Layer</td>
+          <td>-</td>
+          <td>-</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>Session Layer</td>
+          <td>-</td>
+          <td>-</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Transport Layer</td>
+          <td>Transport Layer</td>
+          <td>TCP, UDP</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Network Layer</td>
+          <td>Internet Layer</td>
+          <td>IP, ICMP, IPSec</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Data Link Layer</td>
+          <td>Link Layer</td>
+          <td>Ethernet 802.3, WiFi 802.11</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>Physical Layer</td>
+          <td>-</td>
+          <td>-</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="ip-addresses-and-subnets">IP addresses and subnets</h2>
+<p>IP addresses are unquie identifiers for hosts on a network to recognize and communicate with one another. There are currently two versions of IP adderesses, IPV4 and IPV6. An ipaddress contains 4 octects, each representing decimal numbers from 0-255 an example of which is given below.</p>
+<img src="../octets.png" alt="octets" width="420">
+<p>0 and 255 are reserverd for network and broadcast addresses respectively, Sending to the broadcast address targets all the hosts on the network. IPv6 was created because IPv4 could not have more than 4 billion unique addresses.</p>
+<h3 id="private-ip-addresses">Private IP addresses</h3>
+<ol>
+<li>Public IP addresses,</li>
+<li>Private IP addresses,
+are the two types of IP addresses.
+RFC(Request For Comments) 1918 defines the following three ranges of private IP addresses:</li>
+</ol>
+<ul>
+<li>10.0.0.0 - 10.255.255.255 (10/8)</li>
+<li>172.16.0.0 - 172.31.255.255 (172.16/12)</li>
+<li>192.168.0.0 - 192.168.255.255 (192.168/16)</li>
+</ul>
+<p>In basic terms, Private IP address is a address of a device within a network such as a home, school or hospital network where devices within the network can communicate with each other and for it to access the internet a router capable of Network Address Translation (NAT) with a public ip address is needed.</p>
+<h3 id="routing">Routing</h3>
+<p>A router forwards data packets to the proper network. Usually, a data packet passes through multiple routers before it reaches its final destination. The router functions at layer 3, inspecting the IP address and forwarding the packet to the best network (router) so the packet gets closer to its destination.</p>
+<h2 id="udp-and-tcp">UDP and TCP</h2>
+<p>IP protocols allows us to reach a destination host on a network identified by its ip address. Proper protocols are needed for applications and processes on differnet devices to communicate with one other. UDP(User Datagram Protocol) and TCP(Transmission Control Protocol) are such protocols.</p>
+<h3 id="udp">UDP</h3>
+<h3 id="tcp">TCP</h3>
+<img src="../tcp.svg" alt="tcp" width="420">
 
       </div>
 
@@ -594,6 +675,19 @@
             <li><a href="#layer-6-presentation-layer">Layer 6 Presentation Layer</a></li>
             <li><a href="#layer-7-application-layer">Layer 7 Application Layer</a></li>
             <li><a href="#table">Table</a></li>
+          </ul>
+        </li>
+        <li><a href="#tcpip-model">TCP/IP model</a></li>
+        <li><a href="#ip-addresses-and-subnets">IP addresses and subnets</a>
+          <ul>
+            <li><a href="#private-ip-addresses">Private IP addresses</a></li>
+            <li><a href="#routing">Routing</a></li>
+          </ul>
+        </li>
+        <li><a href="#udp-and-tcp">UDP and TCP</a>
+          <ul>
+            <li><a href="#udp">UDP</a></li>
+            <li><a href="#tcp">TCP</a></li>
           </ul>
         </li>
       </ul>
