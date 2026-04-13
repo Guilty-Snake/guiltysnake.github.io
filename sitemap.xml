@@ -92,6 +92,16 @@
                href="http://localhost:1313/guiltysnake.github.io/posts/mypost/"/>
   </url>
   <url>
+    <loc>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network2/</loc>
+    
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network2/"/>
+  </url>
+  <url>
     <loc>http://localhost:1313/guiltysnake.github.io/categories/</loc>
     
     <changefreq>monthly</changefreq>

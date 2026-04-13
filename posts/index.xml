@@ -6,8 +6,15 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/guiltysnake.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Networking Essectials</title>
+      <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network2/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network2/</guid>
+      <description>&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dynamic Host Configuration Protocol (DHCP)&lt;/li&gt;&#xA;&lt;li&gt;Address Resolution Protocol (ARP)&lt;/li&gt;&#xA;&lt;li&gt;Network Address Translation (NAT)&lt;/li&gt;&#xA;&lt;li&gt;Internet Control Message Protocol (ICMP)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ping&lt;/li&gt;&#xA;&lt;li&gt;Traceroute&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;dhcp&#34;&gt;DHCP&lt;/h2&gt;&#xA;&lt;p&gt;In simple termes DHCP is a protocal set to automatically assign a ip address to new devices on a network so it can be connected to all other devices.&#xA;DHCP is an application-level protocol that relies on UDP; the server listens on UDP port 67, and the client sends from UDP port 68.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Networking Concepts</title>
       <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network1/</link>
