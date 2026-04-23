@@ -85,7 +85,7 @@
 
   
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","email":"aditkhatri143@gmail.com","name":"Adit khatri","sameAs":["https://github.com/Guilty-Snake","https://www.linkedin.com/in/yourprofile","https://twitter.com/n/a"]},"dateModified":"2026-04-13T00:00:00Z","datePublished":"2026-04-13T00:00:00Z","description":"Learning Objectives Dynamic Host Configuration Protocol (DHCP) Address Resolution Protocol (ARP) Network Address Translation (NAT) Internet Control Message …","headline":"Networking Essectials","image":"http://localhost:1313/guiltysnake.github.io/images/Basic-network.jpg","inLanguage":"en","keywords":["THM","Cybersecurity101","Networking"],"mainEntityOfPage":{"@id":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network2/","@type":"WebPage"},"publisher":{"@type":"Organization","name":"","url":"http://localhost:1313/guiltysnake.github.io/"},"timeRequired":"PT2M","url":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network2/","wordCount":375}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","email":"aditkhatri143@gmail.com","name":"Adit khatri","sameAs":["https://github.com/Guilty-Snake","https://www.linkedin.com/in/yourprofile","https://twitter.com/n/a"]},"dateModified":"2026-04-13T00:00:00Z","datePublished":"2026-04-13T00:00:00Z","description":"Learning Objectives Dynamic Host Configuration Protocol (DHCP) Address Resolution Protocol (ARP) Network Address Translation (NAT) Internet Control Message …","headline":"Networking Essectials","image":"http://localhost:1313/guiltysnake.github.io/images/Basic-network.jpg","inLanguage":"en","keywords":["THM","Cybersecurity101","Networking"],"mainEntityOfPage":{"@id":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network2/","@type":"WebPage"},"publisher":{"@type":"Organization","name":"","url":"http://localhost:1313/guiltysnake.github.io/"},"timeRequired":"PT4M","url":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network2/","wordCount":814}</script>
 
 
 
@@ -378,7 +378,7 @@
             stroke-width="2"
             d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
         </svg>
-        375 words
+        814 words
       </span>
     
 
@@ -392,7 +392,7 @@
             stroke-width="2"
             d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
         </svg>
-        2 min
+        4 min
       </span>
     
   </div>
@@ -446,8 +446,26 @@ ARP is considered a layer 2 protocol as it deals with mac addresses.</p>
 <li>ping:<br>This command uses ICMP to test connectivity to a target system and measures the round-trip time (RTT). In other words, it can be used to learn if a target is alive and if its reply can reach a system.</li>
 <li>traceroute:<br>It uses ICMP to discover the route from a host to target.</li>
 </ul>
-<h4 id="ttl">TTL</h4>
+<h3 id="ttl">TTL</h3>
 <p>The IP has a fielt called Time-To-Live (TTL), it is used to calculate the number of routers a packet can go through before it is dropped. A router decreases the value of TTL each time a packet passes through and when TTL reaches zero a ICMP type 11 TIme Exceeded message is sent.</p>
+<p><strong>traceroute</strong> makes use of TTL to discover routers between a system and a site but it too has it caveats as some routers might simply drop the packets without sending any ICMP message, and in some cases ICMP the time excedded message can get blocked as well.</p>
+<h2 id="routing">Routing</h2>
+<p>The internet has billions of devices and millions of routers connected to each other, as such for two systems to connect to each other but as there are a large number of paths some are less efficient than others, to find the most optimal path routing algorithms are utilized:</p>
+<ul>
+<li><strong>OSPF (Open Shortest Path First):</strong> <br>
+OSPF is a routing protocol that allows routers to share information about the network topology and calculate the most efficient paths for data transmission. It does this by having routers exchange updates about the state of their connected links and networks. This way, each router has a complete map of the network and can determine the best routes to reach any destination.</li>
+<li><strong>EIGRP (Enhanced Interior Gateway Routing Protocol):</strong> <br>
+EIGRP is a Cisco proprietary routing protocol that combines aspects of different routing algorithms. It allows routers to share information about the networks they can reach and the cost (like bandwidth or delay) associated with those routes. Routers then use this information to choose the most efficient paths for data transmission.</li>
+<li><strong>BGP (Border Gateway Protocol):</strong> <br>
+BGP is the primary routing protocol used on the Internet. It allows different networks (like those of Internet Service Providers) to exchange routing information and establish paths for data to travel between these networks. BGP helps ensure data can be routed efficiently across the Internet, even when traversing multiple networks.</li>
+<li><strong>RIP (Routing Information Protocol):</strong> <br>
+RIP is a simple routing protocol often used in small networks. Routers running RIP share information about the networks they can reach and the number of hops (routers) required to get there. As a result, each router builds a routing table based on this information, choosing the routes with the fewest hops to reach each destination.</li>
+</ul>
+<h2 id="nat">NAT</h2>
+<p>As the number of devices connected to the internet kept increasing it became apparant that IPv4 would run out quickly, as a solution to this issue <strong>Network Address Translation(NAT)</strong> is utilized.
+In simple terms instead of a company with dozens of computers needing indivial ip address for each computer, they instead share the same public ip address to connect to the internet.
+NAT-supporting routers maintain a table translating network addresses between internal and external networks. The internal network will use a private IP address range, while the external network would use a public IP address which can be observed on the image below.</p>
+<img src="../NAT.svg" alt="NAT" width="640" height="420">
 
       </div>
 
@@ -552,13 +570,11 @@ ARP is considered a layer 2 protocol as it deals with mac addresses.</p>
         <li><a href="#arp">ARP</a></li>
         <li><a href="#icmp">ICMP</a>
           <ul>
-            <li>
-              <ul>
-                <li><a href="#ttl">TTL</a></li>
-              </ul>
-            </li>
+            <li><a href="#ttl">TTL</a></li>
           </ul>
         </li>
+        <li><a href="#routing">Routing</a></li>
+        <li><a href="#nat">NAT</a></li>
       </ul>
     </li>
   </ul>
