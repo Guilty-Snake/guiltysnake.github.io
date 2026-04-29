@@ -6,8 +6,15 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/guiltysnake.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Networking Core Protocols</title>
+      <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network3/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network3/</guid>
+      <description>&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;WHOIS&lt;/li&gt;&#xA;&lt;li&gt;DNS&lt;/li&gt;&#xA;&lt;li&gt;HTTP and FTP&lt;/li&gt;&#xA;&lt;li&gt;SMTP, POP3, and IMAP&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;dns&#34;&gt;DNS&lt;/h2&gt;</description>
+    </item>
     <item>
       <title>Networking Essectials</title>
       <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network2/</link>
