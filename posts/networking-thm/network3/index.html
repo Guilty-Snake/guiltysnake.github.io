@@ -85,7 +85,7 @@
 
   
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","email":"aditkhatri143@gmail.com","name":"Adit khatri","sameAs":["https://github.com/Guilty-Snake","https://www.linkedin.com/in/yourprofile","https://twitter.com/n/a"]},"dateModified":"2026-04-23T00:00:00Z","datePublished":"2026-04-23T00:00:00Z","description":"Learning Objectives WHOIS DNS HTTP and FTP SMTP, POP3, and IMAP DNS DNS or Domain Name System is a protocol which in simple terms resolves traffic from a …","headline":"Networking Core Protocols","image":"http://localhost:1313/guiltysnake.github.io/images/Network_protocols.png","inLanguage":"en","keywords":["THM","Cybersecurity101","Networking"],"mainEntityOfPage":{"@id":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network3/","@type":"WebPage"},"publisher":{"@type":"Organization","name":"","url":"http://localhost:1313/guiltysnake.github.io/"},"timeRequired":"PT2M","url":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network3/","wordCount":346}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","email":"aditkhatri143@gmail.com","name":"Adit khatri","sameAs":["https://github.com/Guilty-Snake","https://www.linkedin.com/in/yourprofile","https://twitter.com/n/a"]},"dateModified":"2026-04-23T00:00:00Z","datePublished":"2026-04-23T00:00:00Z","description":"Learning Objectives WHOIS DNS HTTP and FTP SMTP, POP3, and IMAP DNS DNS or Domain Name System is a protocol which in simple terms resolves traffic from a …","headline":"Networking Core Protocols","image":"http://localhost:1313/guiltysnake.github.io/images/Network_protocols.png","inLanguage":"en","keywords":["THM","Cybersecurity101","Networking"],"mainEntityOfPage":{"@id":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network3/","@type":"WebPage"},"publisher":{"@type":"Organization","name":"","url":"http://localhost:1313/guiltysnake.github.io/"},"timeRequired":"PT4M","url":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network3/","wordCount":760}</script>
 
 
 
@@ -378,7 +378,7 @@
             stroke-width="2"
             d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
         </svg>
-        346 words
+        760 words
       </span>
     
 
@@ -392,7 +392,7 @@
             stroke-width="2"
             d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
         </svg>
-        2 min
+        4 min
       </span>
     
   </div>
@@ -428,7 +428,18 @@
 <li>CNAME Record: The CNAME (Canonical Name) record maps a domain name to another domain name. For example, <a href="https://www.example.com">www.example.com</a> can be mapped to example.com or even to example.org.</li>
 <li>MX Record: The MX (Mail Exchange) record specifies the mail server responsible for handling emails for a domain.</li>
 </ul>
-<p>DNS operates at the application layer and uses UDP port 53 by default and TCP port 53 as a default fallback.</p>
+
+
+
+
+
+
+
+
+<blockquote class="blockquote-regular">
+  <p>DNS operates at the application layer and uses UDP port 53 by default and TCP port 53 as a default fallback.</p>
+
+</blockquote>
 <h2 id="whois">WHOIS</h2>
 <p>When registering a domain one must provide accurate contact information, which can be viewed by everyone through <strong>whois</strong>, which provides information about the entity that registered a domain name, including name, phone number, email, and address.</p>
 <h2 id="https">HTTP(S)</h2>
@@ -441,6 +452,96 @@ HTTP and HTTPS commonly use TCP ports 80 and 443, respectively.</p>
 <li><strong>PUT</strong> is used to create a new resource on the server and to update and overwrite existing information.</li>
 <li><strong>DELETE</strong>, as the name suggests, is used to delete a specified file or resource on the server.</li>
 </ul>
+<h2 id="ftp">FTP</h2>
+<p>HTTP is used webpages where as FTP(File Transfer Protocol) is designed for file transfer.
+Example commands defined by the FTP protocol are:</p>
+<ul>
+<li>USER is used to input the username</li>
+<li>PASS is used to enter the password</li>
+<li>RETR (retrieve) is used to download a file from the FTP server to the client.</li>
+<li>STOR (store) is used to upload a file from the client to the FTP server.</li>
+</ul>
+
+
+
+
+
+
+
+
+<blockquote class="blockquote-regular">
+  <p>FTP server listens on TCP port 21 by default; data transfer is conducted via another connection from the client to the server.</p>
+
+</blockquote>
+<h2 id="smtp-sending-email">SMTP: Sending Email</h2>
+<p>Simple Mail Transfer Protocol is a protocol for sending emails which defines how a mail clients talks with a mail server and how a mail server with another.</p>
+<p>Commands used by mail client when it transfer email to an SMTP server:</p>
+<ul>
+<li><strong>HELO</strong> or <strong>EHLO</strong> initiates an SMTP session</li>
+<li><strong>MAIL FROM</strong> specifies the sender’s email address</li>
+<li><strong>RCPT TO</strong> specifies the recipient’s email address</li>
+<li><strong>DATA</strong> indicates that the client will begin sending the content of the email message</li>
+<li><strong>.</strong> is sent on a line by itself to indicate the end of the email message</li>
+</ul>
+
+
+
+
+
+
+
+
+<blockquote class="blockquote-regular">
+  <p>The SMTP server listens on TCP port 25 by default. Telnet was used to utilize SMTP through the CLI but has now been mostly replaced by SSH since it transmits data through plaintext.</p>
+
+</blockquote>
+<h2 id="pop3-receiving-email">POP3: Receiving Email</h2>
+<p>The Post Office Protocol version 3(POP3) allows a client to receive an email sent to them through SMTP.
+Common POP3 commands:</p>
+<ul>
+<li><strong>USER <username></strong> identifies the user</li>
+<li><strong>PASS <password></strong> provide the user&rsquo;s password</li>
+<li><strong>STAT</strong> requests the number of messages and total size</li>
+<li><strong>LIST</strong> list all messages and their sizes</li>
+<li><strong>RETR &lt;message_number&gt;</strong> retrieves the message</li>
+<li><strong>DELE &lt;message_number&gt;</strong> marks a message for deletion</li>
+<li><strong>QUIT</strong> ends the POP3 session applying changes such as deletions</li>
+</ul>
+
+
+
+
+
+
+
+
+<blockquote class="blockquote-regular">
+  <p>the POP3 server listens on TCP port 110 by default.</p>
+
+</blockquote>
+<h2 id="imap-synchronizing-email">IMAP: Synchronizing Email</h2>
+<p>In the current decade everyone has multiple devices which they use on a daily basis so POP3 which can only save messages on 1 device has now become outdated. Internet Message Access Protoco(IMAP) is now used instead POP3 dues to its capability to synchronizing read, moved, and deleted messages via multiple clients.
+Some IMAP commands:</p>
+<ul>
+<li><strong>LOGIN <username> <password></strong> authenticates the user</li>
+<li><strong>SELECT <mailbox></strong> selects a mailbox to work with</li>
+<li><strong>FETCH &lt;mail_number&gt; &lt;data_item_name&gt;</strong> Example fetch 3 body[] to fetch message number 3, header and body.</li>
+<li><strong>MOVE &lt;sequence_set&gt; <mailbox></strong> moves the specified messages to another mailbox</li>
+<li><strong>COPY &lt;sequence_set&gt; &lt;data_item_name&gt;</strong> copies the specified messages to another mailbox</li>
+<li><strong>LOGOUT</strong> logs out</li>
+</ul>
+
+
+
+
+
+
+
+
+<blockquote class="blockquote-regular">
+  <p>The IMAP server listens on TCP port 143 by default.</p>
+
+</blockquote>
 
       </div>
 
@@ -551,6 +652,10 @@ HTTP and HTTPS commonly use TCP ports 80 and 443, respectively.</p>
         <li><a href="#dns">DNS</a></li>
         <li><a href="#whois">WHOIS</a></li>
         <li><a href="#https">HTTP(S)</a></li>
+        <li><a href="#ftp">FTP</a></li>
+        <li><a href="#smtp-sending-email">SMTP: Sending Email</a></li>
+        <li><a href="#pop3-receiving-email">POP3: Receiving Email</a></li>
+        <li><a href="#imap-synchronizing-email">IMAP: Synchronizing Email</a></li>
       </ul>
     </li>
   </ul>
