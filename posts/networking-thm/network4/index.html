@@ -21,14 +21,16 @@
   
   window.MANA_LANG_PREFIXES = ['en'];
 </script>
-<title> | </title>
+<title>Networking Secure Protocols | </title>
 <meta
   name="description"
   content="
-    
+    Learning objectives SSL/TLS Securing existing plain text protocol: HTTP SMTP POP3 IMAP How SSH replaced the plaintext TELNET How VPN creates a secure network …
   
   ">
 
+
+  <meta name="keywords" content="THM, Cybersecurity101, Networking">
 
 
 
@@ -46,16 +48,20 @@
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en">
-<meta property="og:title" content=" | ">
-<meta property="og:description" content="">
+<meta property="og:title" content="Networking Secure Protocols | ">
+<meta property="og:description" content="Learning objectives SSL/TLS Securing existing plain text protocol: HTTP SMTP POP3 IMAP How SSH replaced the plaintext TELNET How VPN creates a secure network …">
 <meta property="og:url" content="http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/">
-<meta property="og:site_name" content=""><meta property="article:published_time" content="0001-01-01T00:00:00Z">
+<meta property="og:site_name" content=""><meta property="og:image" content="http://localhost:1313/guiltysnake.github.io/images/security-protocols.webp">
+  <meta property="og:image:alt" content="Networking Secure Protocols | ">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630"><meta property="article:published_time" content="2026-05-09T00:00:00Z">
   <meta
     property="article:modified_time"
-    content="0001-01-01T00:00:00Z">
+    content="2026-05-09T00:00:00Z"><meta property="article:section" content="THM"><meta property="article:tag" content="THM"><meta property="article:tag" content="Cybersecurity101"><meta property="article:tag" content="Networking">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content=" | ">
-<meta name="twitter:description" content=""><meta name="twitter:site" content="@n/a">
+<meta name="twitter:title" content="Networking Secure Protocols | ">
+<meta name="twitter:description" content="Learning objectives SSL/TLS Securing existing plain text protocol: HTTP SMTP POP3 IMAP How SSH replaced the plaintext TELNET How VPN creates a secure network …"><meta name="twitter:image" content="http://localhost:1313/guiltysnake.github.io/images/security-protocols.webp">
+  <meta name="twitter:image:alt" content="Networking Secure Protocols | "><meta name="twitter:site" content="@n/a">
   <meta name="twitter:creator" content="@n/a">
 
 
@@ -74,8 +80,12 @@
 
 
 
+  
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","email":"aditkhatri143@gmail.com","name":"Adit khatri","sameAs":["https://github.com/Guilty-Snake","https://www.linkedin.com/in/yourprofile","https://twitter.com/n/a"]},"dateModified":"0001-01-01T00:00:00Z","datePublished":"0001-01-01T00:00:00Z","description":"","headline":"","inLanguage":"en","mainEntityOfPage":{"@id":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/","@type":"WebPage"},"publisher":{"@type":"Organization","name":"","url":"http://localhost:1313/guiltysnake.github.io/"},"timeRequired":"PT0M","url":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/","wordCount":0}</script>
+
+  
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","email":"aditkhatri143@gmail.com","name":"Adit khatri","sameAs":["https://github.com/Guilty-Snake","https://www.linkedin.com/in/yourprofile","https://twitter.com/n/a"]},"dateModified":"2026-05-09T00:00:00Z","datePublished":"2026-05-09T00:00:00Z","description":"Learning objectives SSL/TLS Securing existing plain text protocol: HTTP SMTP POP3 IMAP How SSH replaced the plaintext TELNET How VPN creates a secure network …","headline":"Networking Secure Protocols","image":"http://localhost:1313/guiltysnake.github.io/images/security-protocols.webp","inLanguage":"en","keywords":["THM","Cybersecurity101","Networking"],"mainEntityOfPage":{"@id":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/","@type":"WebPage"},"publisher":{"@type":"Organization","name":"","url":"http://localhost:1313/guiltysnake.github.io/"},"timeRequired":"PT4M","url":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/","wordCount":849}</script>
 
 
 
@@ -85,7 +95,7 @@
     
   
   
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"http://localhost:1313/guiltysnake.github.io/","name":"Home","position":1},{"@type":"ListItem","item":"http://localhost:1313/guiltysnake.github.io/posts/","name":"Posts","position":2},{"@type":"ListItem","item":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/","name":"","position":3}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"http://localhost:1313/guiltysnake.github.io/","name":"Home","position":1},{"@type":"ListItem","item":"http://localhost:1313/guiltysnake.github.io/posts/","name":"Posts","position":2},{"@type":"ListItem","item":"http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/","name":"Networking Secure Protocols","position":3}]}</script>
 
 
 
@@ -301,6 +311,17 @@
 
 
 
+  <div class="post-image-single">
+    <img
+      src="/guiltysnake.github.io/images/security-protocols.webp"
+      alt="
+        Networking Secure Protocols - Featured image
+      "
+      loading="eager"
+      width="1200"
+      height="630">
+  </div>
+
 
 
 
@@ -322,20 +343,20 @@
     </li>
     
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name" class="breadcrumb-current"></span>
+      <span itemprop="name" class="breadcrumb-current">Networking Secure Protocols</span>
       <meta itemprop="position" content="3" />
     </li>
   </ol>
 </nav>
 
 
-        <h1 class="post-title-main"></h1>
+        <h1 class="post-title-main">Networking Secure Protocols</h1>
 
         
 
         <div class="post-meta">
   <div class="post-meta-info">
-    <time datetime="0001-01-01T00:00:00Z" class="post-date">
+    <time datetime="2026-05-09T00:00:00Z" class="post-date">
       <svg class="meta-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path
           stroke-linecap="round"
@@ -343,43 +364,266 @@
           stroke-width="2"
           d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
       </svg>
-      January 1, 1
+      May 9, 2026
     </time>
 
     <span class="meta-separator">•</span>
 
     
+      <span class="post-word-count">
+        <svg class="meta-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+        </svg>
+        849 words
+      </span>
+    
 
+    
+      <span class="meta-separator">•</span>
+      <span class="post-reading-time">
+        <svg class="meta-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+        4 min
+      </span>
     
   </div>
 
+  
+    <div class="post-tags">
+      
+        <a href="/tags/thm" class="post-tag">THM</a>
+      
+        <a href="/tags/cybersecurity101" class="post-tag">Cybersecurity101</a>
+      
+        <a href="/tags/networking" class="post-tag">Networking</a>
+      
+    </div>
   
 </div>
 
       </header>
 
       <div class="post-content-main">
-        
+        <h2 id="learning-objectives">Learning objectives</h2>
+<ul>
+<li>SSL/TLS</li>
+<li>Securing existing plain text protocol:
+<ul>
+<li>HTTP</li>
+<li>SMTP</li>
+<li>POP3</li>
+<li>IMAP</li>
+</ul>
+</li>
+<li>How SSH replaced the plaintext TELNET</li>
+<li>How VPN creates a secure network over an insecure one</li>
+</ul>
+<h2 id="tls">TLS</h2>
+<p>In the early days of the internet all data used to be in plain text so attacks had to simply capture packets to view users credentials. Due to lack of secure communication on the internet Secure Sockets Layer was created, more versions of it were realased.</p>
+<p>Transport Layer Security(TLS) is now the successor of SSL (TLS 3.0 to be specific), similar to SSL it is a cryptographic protocol which operates on the transport layer of the OSI model. It allows for a secure communication between a client and a server over an otherwise insecure network.</p>
+<h4 id="overview-of-how--of-how-tls-is-setup-and-used">Overview of how  of how TLS is setup and used:</h4>
+<p>The first step for every server (or client) that needs to identify itself is to get a signed TLS certificate. Generally, the server administrator creates a Certificate Signing Request (CSR) and submits it to a Certificate Authority (CA); the CA verifies the CSR and issues a digital certificate. Once the (signed) certificate is received, it can be used to identify the server (or the client) to others, who can confirm the validity of the signature. For a host to confirm the validity of a signed certificate, the certificates of the signing authorities need to be installed on the host. In the non-digital world, this is similar to recognising the stamps of various authorities. The screenshot below shows the trusted authorities installed in a web browser.</p>
+<center><img src="../certificate-manager.png" alt="certificate manager" width="640" height="420"></center>
+<h2 id="https">HTTPS</h2>
+<p>HTTPS is the http protocol carried out over the TLS which makes the protocol more secure. The following are the common steps a client has to go through to request a page over https(after resolving a domain name):</p>
+<ol>
+<li>Establish a TCP three-way handshake with the target server</li>
+<li>Establish a TLS session</li>
+<li>Communicate using the HTTP protocol; for example, issue HTTP requests, such as GET / HTTP/1.1
+For a HTTP page on the otherhand a client only has to go through step 1 and 3.</li>
+</ol>
+
+
+
+
+
+
+
+
+<blockquote class="blockquote-regular">
+  <p>To view the content of an HTTPS page in cleartext a encryption key is required.</p>
+
+</blockquote>
+<h2 id="smtps-pop3s-and-imap5">SMTPS, POP3S, and IMAP5</h2>
+<p>Adding TLS to SMTP, POP3, and IMAP is no different than adding TLS to HTTP. Similar to how HTTP gets an appended S for Secure and becomes HTTPS, SMTP, POP3, and IMAP become SMTPS, POP3S, and IMAPS, respectively. Using these protocols over TLS is no different than using HTTP over TLS; therefore, almost all the points from the HTTPS discussion apply to these protocols.</p>
+<h4 id="insecure-and-secure-ports-of-protocols">Insecure and secure ports of protocols:</h4>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">Protocol</th>
+          <th style="text-align: center">Default Port</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">HTTP</td>
+          <td style="text-align: center">80</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">SMTP</td>
+          <td style="text-align: center">25</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">POP3</td>
+          <td style="text-align: center">110</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">IMAP</td>
+          <td style="text-align: center">143</td>
+      </tr>
+  </tbody>
+</table>
+<p>Secure versions over TLS:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">Protocol</th>
+          <th style="text-align: center">Default Port</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">HTTPS</td>
+          <td style="text-align: center">443</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">SMTPS</td>
+          <td style="text-align: center">465&amp;507</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">POP3S</td>
+          <td style="text-align: center">995</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">IMAPS</td>
+          <td style="text-align: center">993</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="ssh">SSH</h2>
+<p>Secure shell(ssh) is now used ove <strong>telnet</strong> as it encrypts the traffic it sends.
+Benefits of SSH over telnet:</p>
+<ul>
+<li><strong>Secure authentication:</strong> Besides password-based authentication, SSH supports public key and two-factor authentication.</li>
+<li><strong>Confidentiality:</strong> OpenSSH provides end-to-end encryption, protecting against eavesdropping. Furthermore, it notifies you of new server keys to protect against man-in-the-middle attacks.</li>
+<li><strong>Integrity:</strong> In addition to protecting the confidentiality of the exchanged data, cryptography also protects the integrity of the traffic.</li>
+<li><strong>Tunneling:</strong> SSH can create a secure “tunnel” to route other protocols through SSH. This setup leads to a VPN-like connection.</li>
+<li><strong>X11 Forwarding:</strong> If you connect to a Unix-like system with a graphical user interface, SSH allows you to use the graphical application over the network.</li>
+</ul>
+
+
+
+
+
+
+
+
+<blockquote class="blockquote-regular">
+  <p>While the TELNET server listens on port 23, the SSH server listens on port 22.</p>
+
+</blockquote>
+<h2 id="sftp-and-ftps">SFTP and FTPS</h2>
+<p>SFTP stands for SSH File Transfer Protocol and allows secure file transfer. It is part of the SSH protocol suite and shares the same port number, 22. If enabled in the OpenSSH server configuration, you can connect using a command such as sftp username@hostname. Once logged in, you can issue commands such as get filename and put filename to download and upload files, respectively. Generally speaking, SFTP commands are Unix-like and can differ from FTP commands.</p>
+<p>To setup a SFTP server an obtion needs to be enabled in OpenSSH server.</p>
+
+
+
+
+
+
+
+
+<blockquote class="blockquote-regular">
+  <p>SFTP shares port with SSH i.e. 22 while FTPS uses port 990 by default.</p>
+
+</blockquote>
+<h2 id="vpn">VPN</h2>
+<p>If a user connects to a VPN(Virtual Private Network) server in Japan, they will appear to the servers they access as if located in Japan. These servers will customise their experience accordingly, such as redirecting them to the Japanese version of the service. The screenshot below shows the Google Search page after connecting to a VPN server in Japan. When a VPN tunnel is established all traffic goes through the VPN connection.
+So if anyone tries to view a user&rsquo;s traffic they will only be able to see the vpns ip address isolating a user from prying eyes.</p>
+<p>In many scenarios once a VPN connection is established all traffic is routed through the VPN tunnel however not all VPN connections do this. A VPN server maybe configured to give one access to a private network but not to route one&rsquo;s traffic.</p>
+
+
+
+
+
+
+
+
+<blockquote class="blockquote-regular">
+  <p>Testing a VPN prior to using it is advisable</p>
+
+</blockquote>
+
       </div>
 
       
+        <footer class="post-footer">
+          <div class="post-tags-footer">
+            <span class="tags-label">Tags:</span>
+            
+              <a href="/tags/thm" class="post-tag">THM</a>
+            
+              <a href="/tags/cybersecurity101" class="post-tag">Cybersecurity101</a>
+            
+              <a href="/tags/networking" class="post-tag">Networking</a>
+            
+          </div>
+        </footer>
+      
 
       
 
+
+<section class="related-posts" aria-label="Related Posts">
+  <h2 class="related-posts-title">Related Posts</h2>
+  <ul class="related-posts-list">
+    
+    <li class="related-post-item">
+      <a href="/guiltysnake.github.io/posts/networking-thm/network3/" class="related-post-link">
+        <strong>Networking Core Protocols</strong>
+        <span>Learning Objectives WHOIS DNS HTTP and FTP SMTP, POP3, and IMAP DNS DNS or Domain Name System is a protocol which in …</span>
+      </a>
+    </li>
+    
+    <li class="related-post-item">
+      <a href="/guiltysnake.github.io/posts/networking-thm/network2/" class="related-post-link">
+        <strong>Networking Essectials</strong>
+        <span>Learning Objectives Dynamic Host Configuration Protocol (DHCP) Address Resolution Protocol (ARP) Network Address …</span>
+      </a>
+    </li>
+    
+    <li class="related-post-item">
+      <a href="/guiltysnake.github.io/posts/networking-thm/network1/" class="related-post-link">
+        <strong>Networking Concepts</strong>
+        <span>OSI Model The OSI(Open Systems Interconnection) model is a conceptual model created by ISO(International Organization …</span>
+      </a>
+    </li>
+    
+  </ul>
+</section>
 
 
 
       <nav class="post-navigation" aria-label="Post navigation">
         
-
-        
           <a
-            href="/guiltysnake.github.io/posts/mypost/"
-            class="nav-link nav-next"
-            aria-label="Next post: Linux Shells">
-            <span class="nav-label">Next</span>
-            <span class="nav-title">Linux Shells</span>
+            href="/guiltysnake.github.io/posts/networking-thm/network3/"
+            class="nav-link nav-prev"
+            aria-label="Previous post: Networking Core Protocols">
+            <span class="nav-label">Previous</span>
+            <span class="nav-title">Networking Core Protocols</span>
           </a>
+        
+
         
       </nav>
     </article>
@@ -420,7 +664,37 @@
     </button>
     <div class="toc-content" id="toc-content">
       <nav class="toc-nav" aria-label="Table of Contents">
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#learning-objectives">Learning objectives</a></li>
+        <li><a href="#tls">TLS</a>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#overview-of-how--of-how-tls-is-setup-and-used">Overview of how  of how TLS is setup and used:</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#https">HTTPS</a></li>
+        <li><a href="#smtps-pop3s-and-imap5">SMTPS, POP3S, and IMAP5</a>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#insecure-and-secure-ports-of-protocols">Insecure and secure ports of protocols:</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#ssh">SSH</a></li>
+        <li><a href="#sftp-and-ftps">SFTP and FTPS</a></li>
+        <li><a href="#vpn">VPN</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
       </nav>
     </div>
   </aside>

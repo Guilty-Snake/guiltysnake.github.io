@@ -6,8 +6,15 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/guiltysnake.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Networking Secure Protocols</title>
+      <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/</guid>
+      <description>&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning objectives&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;SSL/TLS&lt;/li&gt;&#xA;&lt;li&gt;Securing existing plain text protocol:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;HTTP&lt;/li&gt;&#xA;&lt;li&gt;SMTP&lt;/li&gt;&#xA;&lt;li&gt;POP3&lt;/li&gt;&#xA;&lt;li&gt;IMAP&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;How SSH replaced the plaintext TELNET&lt;/li&gt;&#xA;&lt;li&gt;How VPN creates a secure network over an insecure one&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tls&#34;&gt;TLS&lt;/h2&gt;&#xA;&lt;p&gt;In the early days of the internet all data used to be in plain text so attacks had to simply capture packets to view users credentials. Due to lack of secure communication on the internet Secure Sockets Layer was created, more versions of it were realased.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Networking Core Protocols</title>
       <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network3/</link>
@@ -35,13 +42,6 @@
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/guiltysnake.github.io/posts/mypost/</guid>
       <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Shells provide great features for the commands written in the CLI(Command Line Interface). Using the CLI instead of the GUI(Graphical User Interface) is similar to going into the kitchen of a restaurent to make your own dish instead of ordering one.&lt;/p&gt;&#xA;&lt;p&gt;Though a lot of shells exist for Linux the default and as well as the most popular one is bash (Bourne-again Shell).&lt;/p&gt;&#xA;&lt;p&gt;The file /etc/shells contains all the installed shells on a Linux system. To switch between shells, their name can be typed in the terminal.&#xA;To permanently change a default shell, the command:&#xA;chsh -s /usr/bin/zsh&#xA;can be used.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

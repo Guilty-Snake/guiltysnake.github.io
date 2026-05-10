@@ -6,8 +6,15 @@
     <description>Recent content in THM on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/guiltysnake.github.io/tags/thm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Networking Secure Protocols</title>
+      <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/</guid>
+      <description>&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning objectives&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;SSL/TLS&lt;/li&gt;&#xA;&lt;li&gt;Securing existing plain text protocol:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;HTTP&lt;/li&gt;&#xA;&lt;li&gt;SMTP&lt;/li&gt;&#xA;&lt;li&gt;POP3&lt;/li&gt;&#xA;&lt;li&gt;IMAP&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;How SSH replaced the plaintext TELNET&lt;/li&gt;&#xA;&lt;li&gt;How VPN creates a secure network over an insecure one&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tls&#34;&gt;TLS&lt;/h2&gt;&#xA;&lt;p&gt;In the early days of the internet all data used to be in plain text so attacks had to simply capture packets to view users credentials. Due to lack of secure communication on the internet Secure Sockets Layer was created, more versions of it were realased.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Networking Core Protocols</title>
       <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network3/</link>
