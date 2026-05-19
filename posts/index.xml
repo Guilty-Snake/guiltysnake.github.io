@@ -6,8 +6,22 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/guiltysnake.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy Peasy</title>
+      <link>http://localhost:1313/guiltysnake.github.io/posts/ctf-blog-thm/easypeasy/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/guiltysnake.github.io/posts/ctf-blog-thm/easypeasy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wireshark The Basics</title>
+      <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/wireshark/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/wireshark/</guid>
+      <description>&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Navigate and configure Wireshark&lt;/li&gt;&#xA;&lt;li&gt;Inspect packets and discover information from different layers of TCP/IP&lt;/li&gt;&#xA;&lt;li&gt;Apply display filters&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tool-overview&#34;&gt;Tool Overview&lt;/h2&gt;&#xA;&lt;p&gt;Wireshark is one of the most popular tools to analyse traffic. Below are some of its usecases:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Detecting and troubleshooting network problems, such as network load failure points and congestion.&lt;/li&gt;&#xA;&lt;li&gt;Detecting security anomalies, such as rogue hosts, abnormal port usage, and suspicious traffic.&lt;/li&gt;&#xA;&lt;li&gt;Investigating and learning protocol details, such as response codes and payload data.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;gui-and-data&#34;&gt;GUI and Data&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Toolbar:&lt;/strong&gt; The main toolbar contains multiple menus and shortcuts for packet sniffing and processing, including filtering, sorting, summarising, exporting and merging.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Networking Secure Protocols</title>
       <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/</link>
@@ -42,6 +56,13 @@
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/guiltysnake.github.io/posts/mypost/</guid>
       <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Shells provide great features for the commands written in the CLI(Command Line Interface). Using the CLI instead of the GUI(Graphical User Interface) is similar to going into the kitchen of a restaurent to make your own dish instead of ordering one.&lt;/p&gt;&#xA;&lt;p&gt;Though a lot of shells exist for Linux the default and as well as the most popular one is bash (Bourne-again Shell).&lt;/p&gt;&#xA;&lt;p&gt;The file /etc/shells contains all the installed shells on a Linux system. To switch between shells, their name can be typed in the terminal.&#xA;To permanently change a default shell, the command:&#xA;chsh -s /usr/bin/zsh&#xA;can be used.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/note/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/note/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

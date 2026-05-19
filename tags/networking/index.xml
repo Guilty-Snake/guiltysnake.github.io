@@ -6,8 +6,15 @@
     <description>Recent content in Networking on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/guiltysnake.github.io/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wireshark The Basics</title>
+      <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/wireshark/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/wireshark/</guid>
+      <description>&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Navigate and configure Wireshark&lt;/li&gt;&#xA;&lt;li&gt;Inspect packets and discover information from different layers of TCP/IP&lt;/li&gt;&#xA;&lt;li&gt;Apply display filters&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tool-overview&#34;&gt;Tool Overview&lt;/h2&gt;&#xA;&lt;p&gt;Wireshark is one of the most popular tools to analyse traffic. Below are some of its usecases:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Detecting and troubleshooting network problems, such as network load failure points and congestion.&lt;/li&gt;&#xA;&lt;li&gt;Detecting security anomalies, such as rogue hosts, abnormal port usage, and suspicious traffic.&lt;/li&gt;&#xA;&lt;li&gt;Investigating and learning protocol details, such as response codes and payload data.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;gui-and-data&#34;&gt;GUI and Data&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Toolbar:&lt;/strong&gt; The main toolbar contains multiple menus and shortcuts for packet sniffing and processing, including filtering, sorting, summarising, exporting and merging.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Networking Secure Protocols</title>
       <link>http://localhost:1313/guiltysnake.github.io/posts/networking-thm/network4/</link>
